@@ -8,7 +8,7 @@ namespace Heathshrink
     {
         const int MAX_OUTPUT_SIZE = 40 * 1024 * 1024;
 
-        [DllImport("heatshrink.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("heatshrink_d.dll", CallingConvention = CallingConvention.Cdecl)]
         private static unsafe extern IntPtr HeatshrinkDecode(byte* input, int size, out int out_size);
         public unsafe byte[] Decompress(byte[] data)
         {
