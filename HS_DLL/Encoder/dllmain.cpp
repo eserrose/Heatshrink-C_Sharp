@@ -1,5 +1,5 @@
 #include "../pch.h"
-#include "heatshrink_encoder.h"
+#include "../heatshrink_encoder.h"
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
