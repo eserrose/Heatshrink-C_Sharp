@@ -1,6 +1,9 @@
-Heatshrink-C#
+<h2>Heatshrink-C#</h2>
 
-You must select the platform target as x86 if you are using the included dlls!
+A C# implementation of the Heatshrink library by atomicobject.
+If you are using it on an embedded application but want to decode the files on a desktop application, you may use it.
+
+<strong>Important note:</strong> You must select the platform target as x86 if you are using the included dlls!
 
 If you want to create your own dll file follow the steps:
 
